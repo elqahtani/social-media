@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Welcome To Simple Social Media</title>
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/css/materialize.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified JavaScript -->
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+
+<body>
+    <div class="container white z-depth-2">
+        <ul class="tabs indigo">
+            <li class="tab col s3"><a class="white-text" href="#register">register</a></li>
+            <li class="tab col s3"><a class="white-text" href="#login">login</a></li>
+        </ul>
+        <div id="register" class="col s12">
+            <form class="col s12">
+                <div class="form-container">
+                    <h3 class="indigo-text">Welcome, Please Register :</h3>
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="first_name" type="text" class="validate">
+                            <label for="first_name">First Name</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix">account_circle</i>
+                            <input id="last_name" type="text" class="validate">
+                            <label for="last_name">Last Name</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">email</i>
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">lock</i>
+                            <input id="password" type="password" class="validate">
+                            <label for="password">Password</label>
+                        </div>
+                    </div>
+                    <center>
+                        <button class="btn waves-effect waves-light indigo" type="submit" name="action">Submit</button>
+                    </center>
+                </div>
+            </form>
+        </div>
+        <div id="login" class="col s12">
+            <form class="col s12">
+                <div class="form-container">
+                    <h3 class="indigo-text">Please Login</h3>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">email</i>
+                            <input id="email" type="email" class="validate">
+                            <label for="email">Email</label>
+                        </div>
+                    </div>
+                    <div class="row">
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix">lock</i>
+                            <input id="password" type="password" class="validate">
+                            <label for="password">Password</label>
+                        </div>
+                    </div>
+                    <br>
+                    <center>
+                        <div class="row">
+                            <button class="btn waves-effect waves-light indigo" type="submit" name="action">Ask</button>
+                        </div>
+                    </center>
+                    <center>
+                        <div class="row">
+                            <button class="btn waves-effect waves-light indigo">Forgot Your Password?
+                            </button>
+                        </div>
+                    </center>
+                </div>
+        </div>
+        </form>
+    </div>
+    <!--Import jQuery before materialize.js-->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.100.2/js/materialize.min.js"></script>
+    </div>
+    <div class="footer-copyright">
+        <center>
+            © 2017 Copyright 
+        </center>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,119 @@
+body {
+    background: #f5f5f5;
+         display: flex;
+     min-height: 100vh;
+     flex-direction: column;
+}
+
+main {
+     flex: 1 0 auto;
+ }
+
+h5 {
+    font-weight: 200;
+}
+
+h3 {
+    text-align: center;
+}
+
+
+.navbar-material .nav-wrapper .brand-logo img {
+    height: 64px;
+}
+
+/*.container {
+    margin-top: 50px;
+    width: 700px;
+    height: 500px;
+    margin-bottom: 80px;
+}*/
+
+.tabs .indicator {
+    background-color: #c5cae9;
+    height: 60px;
+    opacity: 0.3;
+}
+
+.form-container {
+    padding: 40px;
+    padding-top: 10px;
+}
+
+.confirmation-tabs-btn {
+    position: absolute;
+}
+
+/*.footer-copyright {
+    margin-top: 10px;
+    margin-bottom: 100px;
+}*/
+
+
+/* label color */
+
+.input-field label {
+    color: #3f51b5;
+}
+
+.active {
+    color: #3f51b5;
+}
+
+.input-field textarea[class=materialize-textarea]:focus {
+    border-bottom: 1px solid #c5cae9;
+    box-shadow: 0 1px 0 0 #c5cae9;
+}
+
+
+
+/* label focus color */
+
+.input-field input[type=text]:focus+label {
+    color: #c5cae9;
+}
+
+
+/* label underline focus color */
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #c5cae9;
+    box-shadow: 0 1px 0 0 #c5cae9;
+}
+
+.input-field input[type=text]:focus {
+    border-bottom: 1px solid #c5cae9;
+    box-shadow: 0 1px 0 0 #c5cae9;
+}
+
+
+/* valid color */
+
+.input-field input[type=text].valid {
+    border-bottom: 1px solid #c5cae9;
+    box-shadow: 0 1px 0 0 #c5cae9;
+}
+
+
+/* invalid color */
+
+.input-field input[type=text].invalid {
+    border-bottom: 1px solid #c5cae9;
+    box-shadow: 0 1px 0 0 #c5cae9;
+}
+
+
+/* icon prefix focus color */
+
+.input-field .prefix.active {
+    color: #c5cae9;
+}
+
+.updateBtn {
+	position: relative;
+    left: 45px;
+}
+
+.circle responsive-img {
+	left: 45px;
+}
